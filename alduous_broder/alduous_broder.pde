@@ -5,7 +5,7 @@ Grid g;
 
 void setup(){
   size(800,600);
-  g = new Grid(8, 6);
+  g = new Grid(80, 60);
   (new AlduousBroder()).on(g);
 }
 
